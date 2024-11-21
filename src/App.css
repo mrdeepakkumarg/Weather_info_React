@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.search-bar {
+  margin-block: 2rem;
+}
+
+.search-bar input {
+  padding: 8px;
+  border-radius: 0.75rem;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 75%;
+  height: 3rem;
+  margin-right: 1rem;
+  padding-left: 1rem;
+}
+
+.search-bar button {
+  width: 20%;
+  height: 3rem;
+  font-size: 16px;
+  border-radius: 0.75rem;
+}
